@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Apple Chancery";
+    src: url(/fonts/Apple\ Chancery.ttf);
+}
+@font-face {
+    font-family: Palatino;
+    src: url(/fonts/Palatino.ttc);
+}
+header{
+    background-image: url(/img/BG.png);
+    background-size: cover;
+    min-height: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.logotop{
+    display: inline-block;
+    max-width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+header h1{
+    font-family: "Apple Chancery";
+    font-size: 90px;
+    text-align: center;
+    margin-top: 300px;
+}
+header h2{
+    font-family: "Palatino";
+    font-size: 40px;
+    text-align: center;
+}
+.btn{
+    background-color: #9D9EB2;
+    padding: 34px 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 56px;
+    max-width: 140px;
+    margin: auto;
+}
+.lex{
+    background-color: #9D9EB2;
+    flex-direction: row;
+    display: flex;
+    font-family: "palatino";
+    font-size: 20px;
+    padding: 40px;
+    gap: 400px;
+}
+
+.boring{
+    background-color: #9D9EB2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boring article{
+    color: white;
+}
+
+.boring h2{
+color: white;
+font-size: 40px;
+font-family: "palatino";
+}
+.boring h4{
+color: white;
+font-size: 20px;
+font-family: "palatino";
+max-width: 270px;
+text-align: center;
+padding-bottom: 50px;
+}
+
+.btn2{
+    background-color: #9D9EB2;
+    padding: 34px 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 56px;
+    max-width: 140px;
+    margin-bottom: 156px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.016), 0 8px 16px 0 rgba(0,0,0,0.16);
+}
+
+.info {
+    background-color: #9D9EB2;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding-bottom: 10%;
+}
+
+.info h3{
+    font-family: "Apple Chancery";
+}
+
+.info article{
+    max-width: 250px;
+    font-size: 20px;
+    font-family: "palatino";
+    color: white;
+}
+
+.teaser{
+    background-color: #9D9EB2;
+}
+
+.teaser h2{
+    color: white;
+    font-family: "palatino";
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 75px;
+}
+
+.bil{
+    display: flex;
+    max-width: 620px;
+    gap: 40px;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+
+.logobund{
+    margin-right: auto;
+}
+
+footer{
+    background-color: #7D7E8E;
+    max-height: 80px;
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 0px;
+    align-items: center;
+    gap: 10px;
+    max-width: 1900px;
+}
